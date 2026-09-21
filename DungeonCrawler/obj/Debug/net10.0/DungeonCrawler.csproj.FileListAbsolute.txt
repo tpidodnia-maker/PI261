@@ -1,0 +1,14 @@
+C:\Users\Admin\Desktop\PI261\DungeonCrawler\bin\Debug\net10.0\DungeonCrawler.exe
+C:\Users\Admin\Desktop\PI261\DungeonCrawler\bin\Debug\net10.0\DungeonCrawler.deps.json
+C:\Users\Admin\Desktop\PI261\DungeonCrawler\bin\Debug\net10.0\DungeonCrawler.runtimeconfig.json
+C:\Users\Admin\Desktop\PI261\DungeonCrawler\bin\Debug\net10.0\DungeonCrawler.dll
+C:\Users\Admin\Desktop\PI261\DungeonCrawler\bin\Debug\net10.0\DungeonCrawler.pdb
+C:\Users\Admin\Desktop\PI261\DungeonCrawler\obj\Debug\net10.0\DungeonCrawler.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\PI261\DungeonCrawler\obj\Debug\net10.0\DungeonCrawler.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\PI261\DungeonCrawler\obj\Debug\net10.0\DungeonCrawler.AssemblyInfo.cs
+C:\Users\Admin\Desktop\PI261\DungeonCrawler\obj\Debug\net10.0\DungeonCrawler.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\PI261\DungeonCrawler\obj\Debug\net10.0\DungeonCrawler.dll
+C:\Users\Admin\Desktop\PI261\DungeonCrawler\obj\Debug\net10.0\refint\DungeonCrawler.dll
+C:\Users\Admin\Desktop\PI261\DungeonCrawler\obj\Debug\net10.0\DungeonCrawler.pdb
+C:\Users\Admin\Desktop\PI261\DungeonCrawler\obj\Debug\net10.0\DungeonCrawler.genruntimeconfig.cache
+C:\Users\Admin\Desktop\PI261\DungeonCrawler\obj\Debug\net10.0\ref\DungeonCrawler.dll
