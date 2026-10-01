@@ -1,0 +1,23 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+
+# IDE
+.vs/
+.vscode/
+.idea/
+
+# Архивы
+*.zip
+
+# Roblox
+*.rbxlx.lock
+*.rbxl.lock
+
+# Системные
+Thumbs.db
+.DS_Store
+
+install_to_command_bar.lua
