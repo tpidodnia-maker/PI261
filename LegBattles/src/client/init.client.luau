@@ -25,6 +25,7 @@ local Notify = Remotes:WaitForChild("Notify") :: RemoteEvent
 local AbilityReady = Remotes:WaitForChild("AbilityReady") :: RemoteEvent
 
 local UIBuilder = require(script:WaitForChild("UIBuilder"))
+local CombatClient = require(script:WaitForChild("CombatClient"))
 
 local data = nil :: any
 local hud = UIBuilder.buildHUD()
@@ -49,10 +50,23 @@ DataChanged.OnClientEvent:Connect(function(key, value)
 	if key == "FULL" then
 		data = value
 	elseif key == "KICK_SWING" then
+		CombatClient.playKick(value.charged)
 		UIBuilder.playKickAnim(hud, value.charged)
 	elseif key == "KICK_LANDED" then
+		CombatClient.onLanded(value.damage, value.crit)
+		-- VFX at target position
+		for _, p in Players:GetPlayers() do
+			if p.Name == value.target and p.Character then
+				local root = p.Character:FindFirstChild("HumanoidRootPart")
+				if root then
+					CombatClient.hitVFX(root.Position, value.crit)
+				end
+				break
+			end
+		end
 		UIBuilder.showHitmarker(hud, value)
 	elseif key == "KICKED_BY" then
+		CombatClient.onKicked(value.damage)
 		UIBuilder.showDamageFlash(hud, value)
 	elseif key == "BLOCK_ON" then
 		UIBuilder.showBlockFx(hud)
